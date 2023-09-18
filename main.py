@@ -1,16 +1,25 @@
-# This is a sample Python script.
-
-# Press ⌃R to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
+def multi_or_sum(num1, num2):
+    multi = num1 * num2
+    if multi <= 1000:
+        return multi
+    else:
+        add = num1 + num2
+        return add
 
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
+try:
+    print("Enter the first number ")
+    number1 = int(input())
+except:
+    print("Something went wrong!")
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+try:
+    print("Enter the second number ")
+    number2 = int(input())
+except:
+    print("Something went wrong!")
+
+try:
+    print("The result is", multi_or_sum(number1, number2))
+except:
+    print("Wrong input!")
