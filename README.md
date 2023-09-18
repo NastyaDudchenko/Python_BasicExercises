@@ -24,3 +24,7 @@ Write a function to return ```True``` if the first and last number of a given li
 
 ## Exercise 6: Display numbers divisible by 5 from a list
 Iterate the given list of numbers and print only those numbers which are divisible by 5
+
+
+
+__Author: https://pynative.com/python-basic-exercise-for-beginners/__
